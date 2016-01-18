@@ -109,12 +109,14 @@
           {% else %}
             <a href="{{ pathto(master_doc) }}" class="icon icon-home"> {{ project }}
           {% endif %}
-
+          </a>
           {% if logo %}
             {# Not strictly valid HTML, but it's the only way to display/scale it properly, without weird scripting or heaps of work #}
+            <a href="http://www.clearpathrobotics.com/">
             <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" />
-          {% endif %}
           </a>
+          {% endif %}
+          
 
           {% if theme_display_version %}
             {%- set nav_version = version %}
