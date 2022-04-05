@@ -3540,7 +3540,6 @@ input[type="radio"][disabled],input[type="checkbox"][disabled] {
     color: #000;
     text-align: left;
     vertical-align: bottom;
-    white-space: nowrap
 }
 
 .wy-table thead th,.rst-content table.docutils thead th,.rst-content table.field-list thead th {
@@ -3637,7 +3636,6 @@ input[type="radio"][disabled],input[type="checkbox"][disabled] {
 }
 
 .wy-table-responsive table td,.wy-table-responsive table th {
-    white-space: nowrap
 }
 
 a {
