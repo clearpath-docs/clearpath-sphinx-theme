@@ -3737,11 +3737,17 @@ a.wy-text-neutral:hover {
     color: #595959 !important
 }
 
-h1,h2,.rst-content .toctree-wrapper p.caption,h3,h4,h5,h6,legend {
+h1,h2,.rst-content .toctree-wrapper p.caption,h3,legend {
     margin-top: 0;
     font-weight: 700;
     font-family: DINPRo;
     text-transform: uppercase;
+}
+
+h4,h5,h6 {
+    margin-top: 0;
+    font-weight: 700;
+    font-family: DINPRo;
 }
 
 p {
